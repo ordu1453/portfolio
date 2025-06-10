@@ -14,7 +14,6 @@ export default function Home() {
       <Experience />
       <Education />
       <Projects />
-      <PhotoGallery />
       <Contact />
     </main>
   )

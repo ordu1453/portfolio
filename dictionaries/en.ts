@@ -9,15 +9,15 @@ export const en = {
   },
   hero: {
     greeting: "Hi, my name is",
-    name: "John Doe",
+    name: "Ali Ordu",
     title: "I build things for the web.",
     description:
-      "I'm a software engineer specializing in building exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.",
+      "I'm a embedded systems engineer specializing in building exceptional digital experiences. I develop firmware for microcontrollers, work with RTOS, peripherals, and interfaces (UART, SPI, I2C, etc.).",
     cta: "Get In Touch",
   },
   about: {
     title: "About Me",
-    p1: "Hello! My name is John and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!",
+    p1: "My name is Muzaffer Ali Ordu, and I specialize in building reliable, efficient, and intelligent embedded solutions that bridge the gap between hardware and software. I work at the intersection of low-level programming, microcontroller systems, real-time operating systems, and hardware interfaces.",
     p2: "Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.",
     p3: "Here are a few technologies I've been working with recently:",
     technologies: ["JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Node.js", "PostgreSQL"],
@@ -141,7 +141,7 @@ export const en = {
   },
   languages: {
     en: "English",
-    tr: "Turkish",
-    ru: "Russian",
+    tr: "Türkçe",
+    ru: "Русский",
   },
 }
