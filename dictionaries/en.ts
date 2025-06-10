@@ -8,7 +8,7 @@ export const en = {
   },
   hero: {
     greeting: "Hi, my name is",
-    name: "John Doe",
+    name: "Ali Ordu",
     title: "I build things for the web.",
     description:
       "I'm a software engineer specializing in building exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.",
@@ -135,8 +135,7 @@ export const en = {
   },
   languages: {
     en: "English",
-    es: "Spanish",
-    tr: "Turkish",
-    ru: "Russian",
+    tr: "Türkçe",
+    ru: "Русский",
   },
 }

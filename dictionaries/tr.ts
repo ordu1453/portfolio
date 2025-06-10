@@ -8,7 +8,7 @@ export const tr = {
   },
   hero: {
     greeting: "Merhaba, benim adım",
-    name: "John Doe",
+    name: "Ali Ordu",
     title: "Web için şeyler inşa ediyorum.",
     description:
       "Olağanüstü dijital deneyimler oluşturmada uzmanlaşmış bir yazılım mühendisiyim. Şu anda, erişilebilir, insan odaklı ürünler geliştirmeye odaklanıyorum.",
@@ -131,8 +131,8 @@ export const tr = {
     cta: "Merhaba De",
   },
   languages: {
-    en: "İngilizce",
+    en: "English",
     tr: "Türkçe",
-    ru: "Rusça",
+    ru: "Русский",
   },
 }
