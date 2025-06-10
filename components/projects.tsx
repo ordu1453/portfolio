@@ -3,6 +3,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Github, ExternalLink } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
+import { ProjectCarousel } from "@/components/project-carousel"
 
 export function Projects() {
   const { t } = useLanguage()
@@ -24,15 +25,10 @@ export function Projects() {
               className={`grid lg:grid-cols-12 gap-8 items-center ${index % 2 === 1 ? "lg:text-right" : ""}`}
             >
               <div className={`lg:col-span-7 ${index % 2 === 1 ? "lg:col-start-6" : ""}`}>
-                <div className="relative group">
-                  <div className="bg-teal-400/10 rounded-lg overflow-hidden">
-                    <img
-                      src={project.image || `/images/project${index + 1}.jpg`}
-                      alt={project.title}
-                      className="w-full h-auto filter grayscale hover:grayscale-0 transition-all duration-300"
-                    />
-                  </div>
-                </div>
+                <ProjectCarousel
+                  images={project.images || [project.image || `/images/project${index + 1}.jpg`]}
+                  title={project.title}
+                />
               </div>
 
               <div className={`lg:col-span-5 ${index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""}`}>

@@ -69,8 +69,9 @@ export function ImageGallery({ images, alt, className = "" }: ImageGalleryProps)
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
-                className={`w-2 h-2 rounded-full transition-colors ${index === currentIndex ? "bg-teal-400" : "bg-slate-600"
-                  }`}
+                className={`w-2 h-2 rounded-full transition-colors ${
+                  index === currentIndex ? "bg-teal-400" : "bg-slate-600"
+                }`}
               />
             ))}
           </div>

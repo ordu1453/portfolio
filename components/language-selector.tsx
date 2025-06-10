@@ -19,23 +19,27 @@ export function LanguageSelector() {
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="sm" className="text-slate-300 hover:text-teal-400 hover:bg-transparent">
-          <Globe className="h-5 w-5 mr-1" />
+        <Button
+          variant="ghost"
+          size="sm"
+          className="text-slate-300 hover:text-teal-400 hover:bg-transparent w-full md:w-auto justify-start md:justify-center"
+        >
+          <Globe className="h-5 w-5 mr-2" />
           <span className="font-mono text-sm">{language.toUpperCase()}</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="bg-slate-800 border-slate-700">
+      <DropdownMenuContent align="end" className="bg-slate-800 border-slate-700 w-48" sideOffset={5}>
         {languages.map((lang) => (
           <DropdownMenuItem
             key={lang.code}
-            className={`font-mono text-sm cursor-pointer ${
-              language === lang.code ? "text-teal-400" : "text-slate-300"
-            } hover:text-teal-400 focus:text-teal-400 hover:bg-slate-700 focus:bg-slate-700`}
+            className={`font-mono text-sm cursor-pointer ${language === lang.code ? "text-teal-400" : "text-slate-300"
+              } hover:text-teal-400 focus:text-teal-400 hover:bg-slate-700 focus:bg-slate-700`}
             onClick={() => {
               setLanguage(lang.code as "en" | "tr" | "ru")
               setIsOpen(false)
             }}
           >
+            <Globe className="h-4 w-4 mr-2" />
             {lang.name}
           </DropdownMenuItem>
         ))}

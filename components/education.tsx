@@ -25,7 +25,7 @@ export function Education() {
                 <p className="text-teal-400 font-medium mb-1">{edu.school}</p>
                 <div className="flex items-center gap-4 text-slate-400 font-mono text-sm">
                   <span>{edu.period}</span>
-                  {edu.gpa && <span>{/*GPA:*/}{edu.gpa}</span>}
+                  {edu.gpa && <span>GPA: {edu.gpa}</span>}
                 </div>
               </div>
 

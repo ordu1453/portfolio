@@ -1,10 +1,13 @@
 "use client"
 
 import { useLanguage } from "@/contexts/language-context"
-import Image from "next/image"
+import { ImageGallery } from "@/components/image-gallery"
 
 export function About() {
   const { t } = useLanguage()
+
+  // Multiple profile pictures
+  const profileImages = ["/images/profile1.jpg", "/images/profile2.jpg", "/images/profile3.jpg"]
 
   return (
     <section id="about" className="py-20 px-6 lg:px-8">
@@ -33,18 +36,7 @@ export function About() {
             </div>
           </div>
 
-          <div className="relative group">
-            <div className="relative z-10 bg-teal-400/10 rounded-lg overflow-hidden">
-              <Image
-                src="/images/profile.jpg"
-                alt="Profile"
-                width={300}
-                height={300}
-                className="w-full h-auto filter grayscale hover:grayscale-0 transition-all duration-300"
-              />
-            </div>
-            <div className="absolute inset-0 border-2 border-teal-400 rounded-lg translate-x-4 translate-y-4 -z-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
-          </div>
+          <ImageGallery images={profileImages} alt="Profile" className="" />
         </div>
       </div>
     </section>

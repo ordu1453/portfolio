@@ -4,11 +4,12 @@ export const en = {
     experience: "Experience",
     education: "Education",
     work: "Work",
+    gallery: "Gallery",
     contact: "Contact",
   },
   hero: {
     greeting: "Hi, my name is",
-    name: "Ali Ordu",
+    name: "John Doe",
     title: "I build things for the web.",
     description:
       "I'm a software engineer specializing in building exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.",
@@ -105,21 +106,26 @@ export const en = {
     projects: [
       {
         title: "Spotify Profile",
-        image: "/images/project1.jpg",
+        images: ["/images/projects/spotify1.jpg", "/images/projects/spotify2.jpg", "/images/projects/spotify3.jpg"],
         description:
           "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
         tech: ["React", "Styled Components", "Express", "Spotify API", "Heroku"],
       },
       {
         title: "Halcyon Theme",
-        image: "/images/project2.jpg",
+        images: ["/images/projects/halcyon1.jpg", "/images/projects/halcyon2.jpg"],
         description:
           "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
         tech: ["VS Code", "Sublime Text", "Atom", "iTerm2", "Hyper"],
       },
       {
         title: "Course Source",
-        image: "/images/project3.jpg",
+        images: [
+          "/images/projects/course1.jpg",
+          "/images/projects/course2.jpg",
+          "/images/projects/course3.jpg",
+          "/images/projects/course4.jpg",
+        ],
         description:
           "A web app built with the NERDS stack for my fellow Northeastern students to browse and leave reviews for courses. Features include user authentication, a review system, and more.",
         tech: ["Node.js", "Express", "React", "PostgreSQL"],
@@ -135,7 +141,7 @@ export const en = {
   },
   languages: {
     en: "English",
-    tr: "Türkçe",
-    ru: "Русский",
+    tr: "Turkish",
+    ru: "Russian",
   },
 }
