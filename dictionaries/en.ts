@@ -96,28 +96,27 @@ export const en = {
     projects: [
       {
         title: "Motor Inverter",
-        images: ["/images/projects/vkr1.png", "/images/projects/vkr2.png", "/images/projects/vkr3.png"],
+        images: ["/images/projects/vkr1.png", "/images/projects/vkr2.png", "/images/projects/vkr3.png", "/images/projects/vkr4.png", "/images/projects/vkr5.png", "/images/projects/vkr6.png"],
         description:
-          "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+          "Developed a motor inverter for electric motor control. Designed the electrical schematic and PCB, selected components, and ensured proper signal integrity. Inparallel, I modeled and tested control algorithms in Matlab Simulink to validate functionality.This project demonstrated successful integration of both hardware and software elements in a motor control system.",
         tech: ["React", "Styled Components", "Express", "Spotify API", "Heroku"],
       },
       {
-        title: "Halcyon Theme",
-        images: ["/images/projects/halcyon1.jpg", "/images/projects/halcyon2.jpg"],
+        title: "Converter Control System",
+        images: ["/images/projects/drv1.png", "/images/projects/drv2.png", "/images/projects/drv3.png", "/images/projects/drv4.png", "/images/projects/drv5.png"],
         description:
-          "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
+          "Designed a control system for a DC-DC converter. Developed the electrical schematic and PCB layout, ensuring reliable hardware performance. Implemented and validated control algorithms in Matlab Simulink, enabling thorough simulation and testing prior to hardware deployment. This project combined power electronics design with embedded control development.",
         tech: ["VS Code", "Sublime Text", "Atom", "iTerm2", "Hyper"],
       },
       {
-        title: "Course Source",
+        title: "STM32 Modules",
         images: [
-          "/images/projects/course1.jpg",
-          "/images/projects/course2.jpg",
-          "/images/projects/course3.jpg",
-          "/images/projects/course4.jpg",
+          "/images/projects/g1.png",
+          "/images/projects/g2.png",
+
         ],
         description:
-          "A web app built with the NERDS stack for my fellow Northeastern students to browse and leave reviews for courses. Features include user authentication, a review system, and more.",
+          "Designed a modular PCB with an STM32 microcontroller for use in future embedded projects. The board features a modular architecture, allowing flexible integration with various peripherals and control schemes. It supports debugging, firmware updates, and multiple communication interfaces. This module serves as a reusable platform for rapid prototyping and development.",
         tech: ["Node.js", "Express", "React", "PostgreSQL"],
       },
     ],
