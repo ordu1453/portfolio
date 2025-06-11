@@ -10,25 +10,25 @@ export const en = {
   hero: {
     greeting: "Hi, my name is",
     name: "Ali Ordu",
-    title: "I build things for the web.",
+    title: "I connect hardware with intelligence.",
     description:
-      "I'm a embedded systems engineer specializing in building exceptional digital experiences. I develop firmware for microcontrollers, work with RTOS, peripherals, and interfaces (UART, SPI, I2C, etc.).",
+      "I design firmware for microcontrollers and work with real-time operating systems, hardware peripherals, and communication interfaces. I'm passionate about systems where code meets hardware — crafting intelligent embedded solutions that bring machines to life.",
     cta: "Get In Touch",
   },
   about: {
     title: "About Me",
     p1: "My name is Muzaffer Ali Ordu, and I specialize in building reliable, efficient, and intelligent embedded solutions that bridge the gap between hardware and software. I work at the intersection of low-level programming, microcontroller systems, real-time operating systems, and hardware interfaces.",
-    p2: "Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.",
+    p2: " ",
     p3: "Here are a few technologies I've been working with recently:",
-    technologies: ["JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Node.js", "PostgreSQL"],
+    technologies: ["C/C++", "Python", "STM32", "Linux", "Altium Designer", "KiCAD", "MATLAB/Simulink", "TI", "Renesas", "Raspberry PI", "Keil uVision", "STM32 CubeIDE", "MathCAD", "Git"],
   },
   experience: {
     title: "Where I've Worked",
     positions: [
       {
-        company: "Upstatement",
-        title: "Lead Engineer",
-        period: "May 2018 - Present",
+        company: "Bauman Moscow State TU",
+        title: "Programmer",
+        period: "April - November 2024",
         description: [
           "Write modern, performant, maintainable code for a diverse array of client and internal projects",
           "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
@@ -36,23 +36,13 @@ export const en = {
         ],
       },
       {
-        company: "Apple",
-        title: "UI Engineer Co-op",
-        period: "July - December 2017",
+        company: "CPT TMH",
+        title: "Lead Research Engineer",
+        period: "November 2024 - Present",
         description: [
           "Developed and shipped highly interactive web applications for Apple Music using Ember.js",
           "Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs",
           "Architected and implemented the front-end of Apple Music's embeddable web player widget",
-        ],
-      },
-      {
-        company: "Mullen Lowe",
-        title: "Creative Technologist Co-op",
-        period: "July - December 2016",
-        description: [
-          "Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery",
-          "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness",
-          "Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more",
         ],
       },
     ],
@@ -61,10 +51,9 @@ export const en = {
     title: "Education",
     schools: [
       {
-        school: "Northeastern University",
-        degree: "Bachelor of Science in Computer Science",
-        period: "2014 - 2018",
-        gpa: "3.8/4.0",
+        school: "Engineering Class",
+        degree: "Kurchatov School",
+        period: "2018 - 2021",
         coursework: [
           "Data Structures and Algorithms",
           "Object-Oriented Design",
@@ -80,9 +69,10 @@ export const en = {
         ],
       },
       {
-        school: "Online Coursework",
-        degree: "Continuous Learning",
-        period: "2018 - Present",
+        school: "Electric Power and Electrical Engineering",
+        degree: "Bauman Moscow State Techical University",
+        period: "2021 - 2025",
+        gpa: "Bachelor",
         coursework: [
           "Advanced React Patterns",
           "TypeScript Deep Dive",

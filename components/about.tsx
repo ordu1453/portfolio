@@ -36,7 +36,7 @@ export function About() {
             </div>
           </div>
 
-          <ImageGallery images={profileImages} alt="Profile" className="" />
+          {/* <ImageGallery images={profileImages} alt="Profile" className="" /> */}
         </div>
       </div>
     </section>
