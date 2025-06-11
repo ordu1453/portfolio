@@ -75,7 +75,7 @@ export const en = {
         school: "Electric Power and Electrical Engineering",
         degree: "Bauman Moscow State Techical University",
         period: "2021 - 2025",
-        gpa: "Bachelor",
+        gpa: "Bachelor Degree",
         coursework: [
           "Electric Vehicle Design",
           "Control of Technical Systems",
