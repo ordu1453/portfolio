@@ -9,49 +9,44 @@ export const tr = {
   hero: {
     greeting: "Merhaba, benim adım",
     name: "Ali Ordu",
-    title: "Web için şeyler inşa ediyorum.",
+    title: "Donanımı zeka ile birleştiriyorum.",
     description:
-      "Olağanüstü dijital deneyimler oluşturmada uzmanlaşmış bir yazılım mühendisiyim. Şu anda, erişilebilir, insan odaklı ürünler geliştirmeye odaklanıyorum.",
+      "Mikrodenetleyiciler için yazılım geliştiriyorum; RTOS, çevre birimleri ve haberleşme arayüzleriyle çalışıyorum. Yazılım ile donanımın birleştiği sistemler ilgimi çekiyor — elektronik bileşenlere zeka kazandıran gömülü çözümler tasarlıyorum",
     cta: "İletişime Geç",
   },
   about: {
     title: "Hakkımda",
-    p1: "Merhaba! Benim adım John ve internette yaşayan şeyler yaratmaktan keyif alıyorum. Web geliştirmeye olan ilgim, 2012 yılında özel Tumblr temaları düzenlemeyi denediğimde başladı — meğer özel bir reblog düğmesi oluşturmak bana HTML ve CSS hakkında çok şey öğretmiş!",
-    p2: "Günümüze hızlıca gelirsek, bir reklam ajansında, bir start-up'ta, büyük bir şirkette ve öğrenci liderliğindeki bir tasarım stüdyosunda çalışma ayrıcalığına sahip oldum. Bu günlerde ana odak noktam, çeşitli müşteriler için erişilebilir, kapsayıcı ürünler ve dijital deneyimler oluşturmak.",
+    p1: "Ben Muzaffer Ali Ordu, donanım ile yazılım arasındaki köprüyü kuran güvenilir ve verimli gömülü sistem çözümleri geliştiriyorum. Uzmanlık alanım; mikrodenetleyiciler, gerçek zamanlı işletim sistemleri (RTOS), düşük seviyeli programlama ve donanım arayüzleridir ve daha fazlası",
+    p2: " ",
     p3: "Son zamanlarda çalıştığım bazı teknolojiler:",
-    technologies: ["JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Node.js", "PostgreSQL"],
+    technologies: ["C/C++", "Python", "STM32", "Linux", "Altium Designer", "KiCAD", "MATLAB/Simulink", "TI", "Renesas", "Raspberry PI", "Keil uVision", "STM32 CubeIDE", "MathCAD", "Git"],
   },
   experience: {
     title: "Çalıştığım Yerler",
     positions: [
       {
-        company: "Upstatement",
-        title: "Baş Mühendis",
-        period: "Mayıs 2018 - Şu anda",
+        company: "Bauman Moskova Devlet TÜ",
+        title: "Yazılımcı",
+        period: "Nisan - Kasım 2024",
         description: [
-          "Çeşitli müşteri ve iç projeler için modern, performanslı, sürdürülebilir kod yazıyorum",
-          "JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic ve Netlify gibi çeşitli diller, platformlar, çerçeveler ve içerik yönetim sistemleriyle çalışıyorum",
-          "Her gün mühendisler, tasarımcılar, yapımcılar ve müşterilerden oluşan çok disiplinli ekiplerle iletişim kuruyorum",
+          "Elektronik kontrol ünitesinin yazılımını geliştirdim",
+          "Yazılım mimarisini tasarladım",
+          "Elektrik tahrik algoritmalarını uyguladım",
+          "İzleme ve güvenlik sistemlerini entegre ettim",
+          "Devre şemalarını çizdim ve PCB tasarladım",
+          "Endüstriyel dayanıklılık gerekliliklerini karşıladım"
         ],
       },
       {
-        company: "Apple",
-        title: "UI Mühendisi Co-op",
-        period: "Temmuz - Aralık 2017",
+        company: "CPT TMH",
+        title: "Baş Araştırma Mühendisi",
+        period: "Kasım 2024 - günümüz",
         description: [
-          "Ember.js kullanarak Apple Music için oldukça etkileşimli web uygulamaları geliştirdim ve yayınladım",
-          "Üçüncü taraf ve dahili API'leri kullanarak Facebook Messenger içindeki Apple Music Uzantısını oluşturdum ve yayınladım",
-          "Apple Music'in gömülebilir web oynatıcı widget'ının ön yüzünü tasarladım ve uyguladım",
-        ],
-      },
-      {
-        company: "Mullen Lowe",
-        title: "Yaratıcı Teknoloji Uzmanı Co-op",
-        period: "Temmuz - Aralık 2016",
-        description: [
-          "Ağırlıklı olarak HTML, CSS, Sass, JavaScript ve jQuery kullanarak kurum içi ve müşteri web siteleri için kod geliştirdim ve bakımını yaptım",
-          "Çapraz tarayıcı uyumluluğunu ve duyarlılığı sağlamak için siteleri çeşitli tarayıcılarda ve mobil cihazlarda manuel olarak test ettim",
-          "Müşteriler arasında JetBlue, Lovesac, U.S. Cellular, ABD Savunma Bakanlığı ve daha fazlası vardı",
+          "STM32, TI, Renesas ve NXP mikrodenetleyiciler üzerinde C/C++ ile güç dönüştürücü kontrol yazılımları geliştiriyorum",
+          "MATLAB/Simulink kullanarak dönüştürücü kontrol algoritmalarının modelleme, analiz ve optimizasyonunu yapıyorum",
+          "Altium Designer ve KiCad ile kontrol kartlarının şematik tasarımını ve PCB çizimini yapıyorum",
+          "Enerji depolama sistemlerinin izlenmesi için gömülü Linux yazılımları geliştiriyorum",
+          "I2C, SPI ve CAN protokolleriyle çevre birimleriyle sürücü ve haberleşme arayüzleri geliştiriyorum"
         ],
       },
     ],
@@ -60,39 +55,39 @@ export const tr = {
     title: "Eğitim",
     schools: [
       {
-        school: "Northeastern Üniversitesi",
-        degree: "Bilgisayar Bilimi Lisans Derecesi",
-        period: "2014 - 2018",
-        gpa: "3.8/4.0",
+        school: "Mühendislik Sınıfı",
+        degree: "Kurçatov Okulu",
+        period: "2018 - 2021",
         coursework: [
           "Veri Yapıları ve Algoritmalar",
-          "Nesne Yönelimli Tasarım",
+          "Object-Oriented Design",
           "Veritabanı Tasarımı",
           "Bilgisayar Sistemleri",
           "Yazılım Geliştirme",
           "Web Geliştirme",
         ],
         activities: [
-          "Bilgisayar Bilimi Temelleri dersi için Öğretim Asistanı",
-          "Bilgisayar Bilimi Öğrenci Derneği Üyesi",
-          "ACM Programlama Yarışmalarına Katılım",
+          "Okul kullanımı için Swift dilinde bir dijital not defteri uygulaması geliştirdim",
         ],
       },
       {
-        school: "Çevrimiçi Kurslar",
-        degree: "Sürekli Öğrenme",
-        period: "2018 - Şu anda",
+        school: "Elektrik Enerjisi ve Elektrik Mühendisliği",
+        degree: "Bauman Moskova Devlet Teknik Üniversitesi",
+        period: "2021 - 2025",
+        gpa: "Lisans Derecesi",
         coursework: [
-          "Gelişmiş React Desenleri",
-          "TypeScript Derinlemesine İnceleme",
-          "Sistem Tasarımı",
-          "Bulut Mimarisi",
-          "Makine Öğrenimi Temelleri",
+          "Elektrikli Araç Tasarımı",
+          "Teknik Sistemlerin Kontrolü",
+          "Elektrikli Araçların Hareket Teorisi",
+          "Elektrikli Araçların Hesaplama ve Tasarım Yöntemleri",
+          "Araç İçi Bilgi ve Kontrol Sistemleri",
+          "Elektrikli Araçların Elektronik ve Mikroişlemci Teknolojisi",
+          "Web Geliştirme",
+          "Machine Learning Temelleri",
         ],
         activities: [
-          "Çeşitli platformlarda 50'den fazla teknik kurs tamamladım",
-          "Açık kaynak projelere aktif katkıda bulunan",
-          "Teknoloji konferansları ve atölyelerine düzenli katılımcı",
+          "Çeşitli platformlarda teknik kursları tamamladım",
+          "Teknoloji konferanslarına ve atölye çalışmalarına düzenli olarak katılıyorum",
         ],
       },
     ],
@@ -104,22 +99,31 @@ export const tr = {
     featuredProject: "Öne Çıkan Proje",
     projects: [
       {
-        title: "Spotify Profili",
+        title: "Invertör",
+        images: ["/images/projects/vkr1.png", "/images/projects/vkr2.png", "/images/projects/vkr3.png", "/images/projects/vkr4.png", "/images/projects/vkr5.png", "/images/projects/vkr6.png"],
         description:
-          "Kişiselleştirilmiş Spotify verilerini görselleştirmek için bir web uygulaması. En sevdiğiniz sanatçıları, en çok dinlediğiniz parçaları, son çalınan parçaları ve her parça hakkında detaylı ses bilgilerini görüntüleyin. Mevcut çalma listelerinize dayalı önerilen parçalardan yeni çalma listeleri oluşturun ve kaydedin ve daha fazlası.",
-        tech: ["React", "Styled Components", "Express", "Spotify API", "Heroku"],
+          "DC-DC dönüştürücü için bir kontrol sistemi geliştirdim. Elektrik şemasını ve baskı devre kartını (PCB) tasarladım, donanımın kararlı çalışmasını sağladım. Kontrol algoritmalarını Matlab Simulink ortamında gerçekleştirdim ve doğruladım. Bu proje, güç elektroniği tasarımı ile dijital kontrol sistemini bir araya getirdi.",
+        tech: ["C/C++", "STM32", "TI", "Altium Designer", "MATLAB/Simulink", "Power Electronics", "Thermal calculation"],
       },
       {
-        title: "Halcyon Teması",
+        title: "Converter Kontrol Sistemi",
+        images: ["/images/projects/drv1.png", "/images/projects/drv2.png", "/images/projects/drv3.png", "/images/projects/drv4.png", "/images/projects/drv5.png"],
         description:
-          "VS Code, Sublime Text, Atom, iTerm ve daha fazlası için minimal, koyu mavi bir tema. Visual Studio Marketplace, Package Control, Atom Package Manager ve npm'de mevcuttur.",
-        tech: ["VS Code", "Sublime Text", "Atom", "iTerm2", "Hyper"],
+          "DC-DC dönüştürücü için bir kontrol sistemi geliştirdim. Elektrik şemasını ve baskı devre kartını (PCB) tasarladım, donanımın kararlı çalışmasını sağladım. Kontrol algoritmalarını Matlab Simulink ortamında gerçekleştirdim ve doğruladım. Bu proje, güç elektroniği tasarımı ile dijital kontrol sistemini bir araya getirdi.",
+        tech: ["C/C++", "SWD", "PCB", "CAN", "I2C", "Fiber Optic Transmitters", "ADC/DAC", "MATLAB/Simulink", "Power Systems"],
+        github: "https://github.com/ordu1453/CSS_TMH",
+        demo: ""
       },
       {
-        title: "Course Source",
+        title: "STM32 Modülleri",
+        images: [
+          "/images/projects/g1.png",
+          "/images/projects/g2.png",
+
+        ],
         description:
-          "Northeastern'deki öğrenci arkadaşlarımın dersleri incelemesi ve değerlendirmesi için NERDS yığını ile oluşturulmuş bir web uygulaması. Özellikler arasında kullanıcı kimlik doğrulama, bir inceleme sistemi ve daha fazlası bulunmaktadır.",
-        tech: ["Node.js", "Express", "React", "PostgreSQL"],
+          "Gelecekteki projelerde kullanılmak üzere STM32 mikrodenetleyici içeren modüler bir PCB tasarladım. Modüler mimari sayesinde farklı çevre birimleri ve kontrol yapılarıyla kolayca entegre edilebilir. Hata ayıklama, firmware güncelleme ve çeşitli haberleşme arayüzleri desteklenmektedir. Bu modül, gömülü sistemler için hızlı prototipleme ve geliştirme sürecini kolaylaştırmak amacıyla tasarlandı.",
+        tech: ["STM32", "Modular design", "PCB", "Altium Designer"],
       },
     ],
   },
@@ -127,8 +131,8 @@ export const tr = {
     preTitle: "Sırada Ne Var?",
     title: "İletişime Geç",
     description:
-      "Şu anda yeni fırsatlar aramıyor olsam da, gelen kutum her zaman açık. İster bir sorunuz olsun, ister sadece merhaba demek isteyin, size geri dönmek için elimden geleni yapacağım!",
-    cta: "Merhaba De",
+      "İş birliğine ve yeni mühendislik projelerine açığım. Projelerinizi konuşmak için bana e-posta yoluyla ulaşabilirsiniz",
+    cta: "Merhaba de",
   },
   languages: {
     en: "English",
