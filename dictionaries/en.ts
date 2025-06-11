@@ -30,9 +30,12 @@ export const en = {
         title: "Programmer",
         period: "April - November 2024",
         description: [
-          "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-          "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-          "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+          "Developed software for the vehicle control unit",
+          "Designed the software architecture",
+          "Implemented electric drive control algorithms",
+          "Created schematics and routed PCBs",
+          "Integrated safety and monitoring systems",
+          "Followed industrial-grade reliability standards"
         ],
       },
       {
@@ -40,9 +43,11 @@ export const en = {
         title: "Lead Research Engineer",
         period: "November 2024 - Present",
         description: [
-          "Developed and shipped highly interactive web applications for Apple Music using Ember.js",
-          "Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs",
-          "Architected and implemented the front-end of Apple Music's embeddable web player widget",
+          "Develop control software for power converter systems using C/C++ on STM32, TI, Renesas, and NXP microcontrollers",
+          "Apply MATLAB/Simulink for modeling, analysis, and optimization of converter control algorithms",
+          "Design schematics and route control PCBs using Altium Designer and KiCad",
+          "Build embedded Linux software for battery monitoring systems",
+          "Implement device drivers and interface with peripherals via I2C, SPI, and CAN protocols"
         ],
       },
     ],
@@ -63,9 +68,7 @@ export const en = {
           "Web Development",
         ],
         activities: [
-          "Teaching Assistant for Fundamentals of Computer Science",
-          "Member of the Computer Science Student Association",
-          "Participated in ACM Programming Contests",
+          "Developed a digital notebook app in Swift for school use",
         ],
       },
       {
@@ -74,15 +77,17 @@ export const en = {
         period: "2021 - 2025",
         gpa: "Bachelor",
         coursework: [
-          "Advanced React Patterns",
-          "TypeScript Deep Dive",
-          "System Design",
-          "Cloud Architecture",
+          "Electric Vehicle Design",
+          "Control of Technical Systems",
+          "Theory of Electric Vehicle Motion",
+          "Methods of Calculation and Design of Electric Vehicles",
+          "Onboard Information and Control Systems",
+          "Electronics and Microprocessor Technology of Electric Vehicles",
+          "Web Development",
           "Machine Learning Fundamentals",
         ],
         activities: [
-          "Completed 50+ technical courses on various platforms",
-          "Active contributor to open source projects",
+          "Completed technical courses on various platforms",
           "Regular attendee of tech conferences and workshops",
         ],
       },
@@ -99,14 +104,16 @@ export const en = {
         images: ["/images/projects/vkr1.png", "/images/projects/vkr2.png", "/images/projects/vkr3.png", "/images/projects/vkr4.png", "/images/projects/vkr5.png", "/images/projects/vkr6.png"],
         description:
           "Developed a motor inverter for electric motor control. Designed the electrical schematic and PCB, selected components, and ensured proper signal integrity. Inparallel, I modeled and tested control algorithms in Matlab Simulink to validate functionality.This project demonstrated successful integration of both hardware and software elements in a motor control system.",
-        tech: ["React", "Styled Components", "Express", "Spotify API", "Heroku"],
+        tech: ["C/C++", "STM32", "TI", "Altium Designer", "MATLAB/Simulink", "Power Electronics", "Thermal calculation"],
       },
       {
         title: "Converter Control System",
         images: ["/images/projects/drv1.png", "/images/projects/drv2.png", "/images/projects/drv3.png", "/images/projects/drv4.png", "/images/projects/drv5.png"],
         description:
           "Designed a control system for a DC-DC converter. Developed the electrical schematic and PCB layout, ensuring reliable hardware performance. Implemented and validated control algorithms in Matlab Simulink, enabling thorough simulation and testing prior to hardware deployment. This project combined power electronics design with embedded control development.",
-        tech: ["VS Code", "Sublime Text", "Atom", "iTerm2", "Hyper"],
+        tech: ["C/C++", "SWD", "PCB", "CAN", "I2C", "Fiber Optic Transmitters", "ADC/DAC", "MATLAB/Simulink", "Power Systems"],
+        github: "https://github.com/ordu1453/CSS_TMH",
+        demo: ""
       },
       {
         title: "STM32 Modules",
@@ -117,7 +124,7 @@ export const en = {
         ],
         description:
           "Designed a modular PCB with an STM32 microcontroller for use in future embedded projects. The board features a modular architecture, allowing flexible integration with various peripherals and control schemes. It supports debugging, firmware updates, and multiple communication interfaces. This module serves as a reusable platform for rapid prototyping and development.",
-        tech: ["Node.js", "Express", "React", "PostgreSQL"],
+        tech: ["STM32", "Modular design", "PCB", "Altium Designer"],
       },
     ],
   },
@@ -125,7 +132,7 @@ export const en = {
     preTitle: "What's Next?",
     title: "Get In Touch",
     description:
-      "Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+      "I'm open to collaboration and new engineering challenges. Feel free to reach out via email — I'd be happy to discuss your project.",
     cta: "Say Hello",
   },
   languages: {

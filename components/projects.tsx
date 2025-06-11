@@ -51,12 +51,28 @@ export function Projects() {
                   </div>
 
                   <div className={`flex gap-4 ${index % 2 === 1 ? "lg:justify-end" : ""}`}>
-                    <a href="#" className="text-slate-400 hover:text-teal-400 transition-colors">
-                      <Github className="w-5 h-5" />
-                    </a>
-                    <a href="#" className="text-slate-400 hover:text-teal-400 transition-colors">
-                      <ExternalLink className="w-5 h-5" />
-                    </a>
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-slate-400 hover:text-teal-400 transition-colors"
+                        aria-label={`View ${project.title} on GitHub`}
+                      >
+                        <Github className="w-5 h-5" />
+                      </a>
+                    )}
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-slate-400 hover:text-teal-400 transition-colors"
+                        aria-label={`View ${project.title} live demo`}
+                      >
+                        <ExternalLink className="w-5 h-5" />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
