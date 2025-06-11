@@ -95,8 +95,8 @@ export const en = {
     featuredProject: "Featured Project",
     projects: [
       {
-        title: "Spotify Profile",
-        images: ["/images/projects/spotify1.jpg", "/images/projects/spotify2.jpg", "/images/projects/spotify3.jpg"],
+        title: "Motor Inverter",
+        images: ["/images/projects/vkr1.png", "/images/projects/vkr2.png", "/images/projects/vkr3.png"],
         description:
           "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
         tech: ["React", "Styled Components", "Express", "Spotify API", "Heroku"],

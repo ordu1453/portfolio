@@ -31,7 +31,7 @@ export function ProjectCarousel({ images, title, className = "" }: ProjectCarous
           alt={`${title} screenshot ${currentIndex + 1}`}
           width={500}
           height={300}
-          className="w-full h-auto filter grayscale hover:grayscale-0 transition-all duration-300"
+          className="w-full h-auto transition-all duration-300"
         />
         {images.length > 1 && (
           <>
@@ -54,9 +54,8 @@ export function ProjectCarousel({ images, title, className = "" }: ProjectCarous
                 <button
                   key={index}
                   onClick={() => setCurrentIndex(index)}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    index === currentIndex ? "bg-teal-400" : "bg-white/50"
-                  }`}
+                  className={`w-2 h-2 rounded-full transition-colors ${index === currentIndex ? "bg-teal-400" : "bg-white/50"
+                    }`}
                 />
               ))}
             </div>
