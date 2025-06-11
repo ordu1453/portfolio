@@ -15,10 +15,10 @@ export function Hero() {
           {t("hero.description")}
         </p>
         <div className="flex gap-6 justify-center">
-          <a href="#" className="text-slate-400 hover:text-teal-400 transition-colors">
+          <a href="https://github.com/ordu1453" className="text-slate-400 hover:text-teal-400 transition-colors">
             <Github className="w-6 h-6" />
           </a>
-          <a href="#" className="text-slate-400 hover:text-teal-400 transition-colors">
+          <a href="https://t.me/ordu1453" className="text-slate-400 hover:text-teal-400 transition-colors">
             <Send className="w-6 h-6" />
           </a>
         </div>
