@@ -16,7 +16,7 @@ export const tr = {
   },
   about: {
     title: "Hakkımda",
-    p1: "Ben <strong>Muzaffer Ali Ordu</strong>, donanım ile yazılım arasındaki köprüyü kuran güvenilir ve verimli <strong>gömülü</strong> sistem çözümleri geliştiriyorum. Uzmanlık alanım; <strong>mikrodenetleyiciler</strong>, gerçek zamanlı işletim sistemleri (RTOS), düşük seviyeli programlama, <strong>donanım</strong> arayüzleri ve daha fazlası",
+    p1: "Ben <strong>Muzaffer Ali Ordu</strong>, <strong>donanım</strong> ile <strong>yazılım</strong> arasındaki köprüyü kuran güvenilir ve verimli <strong>gömülü sistem</strong> çözümleri geliştiriyorum. Uzmanlık alanım; <strong>mikrodenetleyiciler</strong>, gerçek zamanlı <strong>işletim sistemleri</strong> (RTOS), düşük seviyeli <strong>programlama</strong>, <strong>donanım</strong> arayüzleri ve daha fazlası",
     p2: " ",
     p3: "Son zamanlarda çalıştığım bazı <strong>teknolojiler</strong>:",
     technologies: ["C/C++", "Python", "STM32", "Linux", "Altium Designer", "KiCAD", "MATLAB/Simulink", "TI", "Renesas", "Raspberry PI", "Keil uVision", "STM32 CubeIDE", "MathCAD", "Git"],
@@ -43,7 +43,7 @@ export const tr = {
         period: "Kasım 2024 - günümüz",
         description: [
           "STM32, TI, Renesas ve NXP mikrodenetleyiciler üzerinde C/C++ ile güç dönüştürücü kontrol yazılımları geliştirme",
-          "MATLAB/Simulink kullanarak dönüştürücü kontrol algoritmalarının modelleme, analiz ve optimizasyonu",
+          "MATLAB/Simulink kullanarak dönüştürücü kontrol algoritmalarını modelleme, analiz ve optimizasyonu",
           "Altium Designer ve KiCad ile kontrol kartlarının şematik tasarımı ve PCB çizimi",
           "Enerji depolama sistemlerinin izlenmesi için gömülü Linux yazılımları geliştirme",
           "I2C, SPI ve CAN protokolleriyle çevre birimleriyle sürücü ve haberleşme arayüzleri geliştirme"
