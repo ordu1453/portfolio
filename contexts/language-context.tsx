@@ -1,6 +1,6 @@
 "use client"
 
-import { createContext, useContext, useState, type ReactNode } from "react"
+import { createContext, useContext, useState, useEffect, type ReactNode } from "react"
 import { en } from "@/dictionaries/en"
 import { tr } from "@/dictionaries/tr"
 import { ru } from "@/dictionaries/ru"
@@ -17,6 +17,33 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>("en")
+
+  // Detect user's language based on browser settings
+  useEffect(() => {
+    const detectLanguage = () => {
+      const browserLang = navigator.language.split("-")[0].toLowerCase()
+
+      // Check if the browser language is supported in our app
+      const supportedLanguages: Language[] = ["en", "tr", "ru"]
+
+      if (supportedLanguages.includes(browserLang as Language)) {
+        setLanguage(browserLang as Language)
+      }
+
+      // Save the language preference to localStorage
+      const savedLanguage = localStorage.getItem("preferredLanguage")
+      if (savedLanguage && supportedLanguages.includes(savedLanguage as Language)) {
+        setLanguage(savedLanguage as Language)
+      }
+    }
+
+    detectLanguage()
+  }, [])
+
+  // Save language preference when it changes
+  useEffect(() => {
+    localStorage.setItem("preferredLanguage", language)
+  }, [language])
 
   const dictionaries = {
     en,

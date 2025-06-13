@@ -21,9 +21,9 @@ export function About() {
         <div className="grid lg:grid-cols-3 gap-12 items-start">
           <div className="lg:col-span-2">
             <div className="text-slate-400 space-y-4 text-lg leading-relaxed">
-              <p>{t("about.p1")}</p>
-              <p>{t("about.p2")}</p>
-              <p>{t("about.p3")}</p>
+              <p dangerouslySetInnerHTML={{ __html: t("about.p1") }}></p>
+              <p dangerouslySetInnerHTML={{ __html: t("about.p2") }}></p>
+              <p dangerouslySetInnerHTML={{ __html: t("about.p3") }}></p>
             </div>
 
             <div className="grid grid-cols-2 gap-2 mt-6 text-slate-400 font-mono text-sm">

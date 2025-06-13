@@ -12,14 +12,14 @@ export const en = {
     name: "Ali Ordu",
     title: "I connect hardware with intelligence.",
     description:
-      "I design firmware for microcontrollers and work with real-time operating systems, hardware peripherals, and communication interfaces. I'm passionate about systems where code meets hardware — crafting intelligent embedded solutions that bring machines to life.",
+      "I design firmware for <strong>microcontrollers</strong> and work with real-time <strong>operating systems</strong>, <strong>hardware</strong> peripherals, and communication <strong>interfaces</strong>. I'm passionate about systems where <strong>code</strong> meets hardware — crafting intelligent <strong>embedded</strong> solutions that bring machines to <strong>life</strong>",
     cta: "Get In Touch",
   },
   about: {
     title: "About Me",
-    p1: "My name is Muzaffer Ali Ordu, and I specialize in building reliable, efficient, and intelligent embedded solutions that bridge the gap between hardware and software. I work at the intersection of low-level programming, microcontroller systems, real-time operating systems, and hardware interfaces.",
+    p1: "My name is <strong>Muzaffer Ali Ordu</strong>, and I specialize in building reliable, efficient, and intelligent <strong>embedded</strong> solutions that bridge the gap between <strong>hardware</strong> and <strong>software</strong>. I work at the intersection of low-level programming, <strong>microcontroller systems</strong>, real-time operating systems, and <strong>hardware interfaces</strong>.",
     p2: " ",
-    p3: "Here are a few technologies I've been working with recently:",
+    p3: "Here are a few <strong>technologies</strong> I've been working with recently:",
     technologies: ["C/C++", "Python", "STM32", "Linux", "Altium Designer", "KiCAD", "MATLAB/Simulink", "TI", "Renesas", "Raspberry PI", "Keil uVision", "STM32 CubeIDE", "MathCAD", "Git"],
   },
   experience: {
@@ -57,7 +57,7 @@ export const en = {
     schools: [
       {
         school: "Engineering Class",
-        degree: "Kurchatov School",
+        degree: "Kurchatov Moscow State School",
         period: "2018 - 2021",
         coursework: [
           "Data Structures and Algorithms",

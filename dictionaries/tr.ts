@@ -9,16 +9,16 @@ export const tr = {
   hero: {
     greeting: "Merhaba, benim adım",
     name: "Ali Ordu",
-    title: "Donanımı zeka ile birleştiriyorum.",
+    title: "Yazılım, donanımın ruhudur — ben onu yazıyorum.",
     description:
-      "Mikrodenetleyiciler için yazılım geliştiriyorum; RTOS, çevre birimleri ve haberleşme arayüzleriyle çalışıyorum. Yazılım ile donanımın birleştiği sistemler ilgimi çekiyor — elektronik bileşenlere zeka kazandıran gömülü çözümler tasarlıyorum",
+      "<strong>Mikrodenetleyiciler</strong> için yazılım geliştiriyorum; RTOS, çevre birimleri ve haberleşme arayüzleriyle çalışıyorum. <strong>Yazılım</strong> ile <strong>donanımın</strong> birleştiği sistemler ilgimi çekiyor — <strong>elektroniğe</strong> zeka kazandıran <strong>gömülü</strong> çözümler tasarlıyorum",
     cta: "İletişime Geç",
   },
   about: {
     title: "Hakkımda",
-    p1: "Ben Muzaffer Ali Ordu, donanım ile yazılım arasındaki köprüyü kuran güvenilir ve verimli gömülü sistem çözümleri geliştiriyorum. Uzmanlık alanım; mikrodenetleyiciler, gerçek zamanlı işletim sistemleri (RTOS), düşük seviyeli programlama ve donanım arayüzleridir ve daha fazlası",
+    p1: "Ben <strong>Muzaffer Ali Ordu</strong>, donanım ile yazılım arasındaki köprüyü kuran güvenilir ve verimli <strong>gömülü</strong> sistem çözümleri geliştiriyorum. Uzmanlık alanım; <strong>mikrodenetleyiciler</strong>, gerçek zamanlı işletim sistemleri (RTOS), düşük seviyeli programlama, <strong>donanım</strong> arayüzleri ve daha fazlası",
     p2: " ",
-    p3: "Son zamanlarda çalıştığım bazı teknolojiler:",
+    p3: "Son zamanlarda çalıştığım bazı <strong>teknolojiler</strong>:",
     technologies: ["C/C++", "Python", "STM32", "Linux", "Altium Designer", "KiCAD", "MATLAB/Simulink", "TI", "Renesas", "Raspberry PI", "Keil uVision", "STM32 CubeIDE", "MathCAD", "Git"],
   },
   experience: {
@@ -29,24 +29,24 @@ export const tr = {
         title: "Yazılımcı",
         period: "Nisan - Kasım 2024",
         description: [
-          "Elektronik kontrol ünitesinin yazılımını geliştirdim",
-          "Yazılım mimarisini tasarladım",
-          "Elektrik tahrik algoritmalarını uyguladım",
-          "İzleme ve güvenlik sistemlerini entegre ettim",
-          "Devre şemalarını çizdim ve PCB tasarladım",
-          "Endüstriyel dayanıklılık gerekliliklerini karşıladım"
+          "Elektronik kontrol ünitesi yazılımı geliştirme",
+          "Yazılım mimarisi tasarlama",
+          "Elektrik tahrik algoritmalarını uygulama",
+          "İzleme ve güvenlik sistemlerini entegre etme",
+          "Devre şemalarını çizme ve PCB tasarlama",
+          "Endüstriyel dayanıklılık gerekliliklerini karşılama"
         ],
       },
       {
         company: "CPT TMH",
-        title: "Baş Araştırma Mühendisi",
+        title: "Lider Araştırma Mühendisi",
         period: "Kasım 2024 - günümüz",
         description: [
-          "STM32, TI, Renesas ve NXP mikrodenetleyiciler üzerinde C/C++ ile güç dönüştürücü kontrol yazılımları geliştiriyorum",
-          "MATLAB/Simulink kullanarak dönüştürücü kontrol algoritmalarının modelleme, analiz ve optimizasyonunu yapıyorum",
-          "Altium Designer ve KiCad ile kontrol kartlarının şematik tasarımını ve PCB çizimini yapıyorum",
-          "Enerji depolama sistemlerinin izlenmesi için gömülü Linux yazılımları geliştiriyorum",
-          "I2C, SPI ve CAN protokolleriyle çevre birimleriyle sürücü ve haberleşme arayüzleri geliştiriyorum"
+          "STM32, TI, Renesas ve NXP mikrodenetleyiciler üzerinde C/C++ ile güç dönüştürücü kontrol yazılımları geliştirme",
+          "MATLAB/Simulink kullanarak dönüştürücü kontrol algoritmalarının modelleme, analiz ve optimizasyonu",
+          "Altium Designer ve KiCad ile kontrol kartlarının şematik tasarımı ve PCB çizimi",
+          "Enerji depolama sistemlerinin izlenmesi için gömülü Linux yazılımları geliştirme",
+          "I2C, SPI ve CAN protokolleriyle çevre birimleriyle sürücü ve haberleşme arayüzleri geliştirme"
         ],
       },
     ],
@@ -56,7 +56,7 @@ export const tr = {
     schools: [
       {
         school: "Mühendislik Sınıfı",
-        degree: "Kurçatov Okulu",
+        degree: "Kurçatov Moskova Devlet Lisesi",
         period: "2018 - 2021",
         coursework: [
           "Veri Yapıları ve Algoritmalar",
@@ -67,11 +67,11 @@ export const tr = {
           "Web Geliştirme",
         ],
         activities: [
-          "Okul kullanımı için Swift dilinde bir dijital not defteri uygulaması geliştirdim",
+          "Okul kullanımı için Swift dilinde bir dijital not defteri uygulaması geliştirme",
         ],
       },
       {
-        school: "Elektrik Enerjisi ve Elektrik Mühendisliği",
+        school: "Elektrik ve Elektronik Mühendisliği",
         degree: "Bauman Moskova Devlet Teknik Üniversitesi",
         period: "2021 - 2025",
         gpa: "Lisans Derecesi",
@@ -83,11 +83,10 @@ export const tr = {
           "Araç İçi Bilgi ve Kontrol Sistemleri",
           "Elektrikli Araçların Elektronik ve Mikroişlemci Teknolojisi",
           "Web Geliştirme",
-          "Machine Learning Temelleri",
+          "ML Temelleri",
         ],
         activities: [
-          "Çeşitli platformlarda teknik kursları tamamladım",
-          "Teknoloji konferanslarına ve atölye çalışmalarına düzenli olarak katılıyorum",
+          "Çeşitli platformlarda teknik kurslar tamamlandı",
         ],
       },
     ],
@@ -102,14 +101,14 @@ export const tr = {
         title: "Invertör",
         images: ["/images/projects/vkr1.png", "/images/projects/vkr2.png", "/images/projects/vkr3.png", "/images/projects/vkr4.png", "/images/projects/vkr5.png", "/images/projects/vkr6.png"],
         description:
-          "DC-DC dönüştürücü için bir kontrol sistemi geliştirdim. Elektrik şemasını ve baskı devre kartını (PCB) tasarladım, donanımın kararlı çalışmasını sağladım. Kontrol algoritmalarını Matlab Simulink ortamında gerçekleştirdim ve doğruladım. Bu proje, güç elektroniği tasarımı ile dijital kontrol sistemini bir araya getirdi.",
+          "Elektrik motorunu kontrol etmek için bir inverter geliştirildi. Elektrik şeması ve baskı devre kartı (PCB) tasarlandı. Aynı zamanda Matlab Simulink ortamında kontrol algoritmaları modellendi ve doğrulandı. Bu proje, donanım ve yazılımın motor kontrolü özelinde başarılı bir şekilde entegre edilebileceğini gösterdi.",
         tech: ["C/C++", "STM32", "TI", "Altium Designer", "MATLAB/Simulink", "Power Electronics", "Thermal calculation"],
       },
       {
         title: "Converter Kontrol Sistemi",
         images: ["/images/projects/drv1.png", "/images/projects/drv2.png", "/images/projects/drv3.png", "/images/projects/drv4.png", "/images/projects/drv5.png"],
         description:
-          "DC-DC dönüştürücü için bir kontrol sistemi geliştirdim. Elektrik şemasını ve baskı devre kartını (PCB) tasarladım, donanımın kararlı çalışmasını sağladım. Kontrol algoritmalarını Matlab Simulink ortamında gerçekleştirdim ve doğruladım. Bu proje, güç elektroniği tasarımı ile dijital kontrol sistemini bir araya getirdi.",
+          "DC-DC dönüştürücü için bir kontrol sistemi geliştirildi. Elektrik şeması ve baskı devre kartı (PCB) tasarlandı. Kontrol algoritmaları Matlab Simulink ortamında gerçekleştirildi ve doğrulandı. Bu proje, güç elektroniği tasarımı ile dijital kontrol sistemini bir araya getirdi.",
         tech: ["C/C++", "SWD", "PCB", "CAN", "I2C", "Fiber Optic Transmitters", "ADC/DAC", "MATLAB/Simulink", "Power Systems"],
         github: "https://github.com/ordu1453/CSS_TMH",
         demo: ""
@@ -122,7 +121,7 @@ export const tr = {
 
         ],
         description:
-          "Gelecekteki projelerde kullanılmak üzere STM32 mikrodenetleyici içeren modüler bir PCB tasarladım. Modüler mimari sayesinde farklı çevre birimleri ve kontrol yapılarıyla kolayca entegre edilebilir. Hata ayıklama, firmware güncelleme ve çeşitli haberleşme arayüzleri desteklenmektedir. Bu modül, gömülü sistemler için hızlı prototipleme ve geliştirme sürecini kolaylaştırmak amacıyla tasarlandı.",
+          "Gelecekteki projelerde kullanılmak üzere STM32 mikrodenetleyici içeren modüler bir PCB tasarlandı. Modüler mimari sayesinde farklı çevre birimleri ve kontrol yapılarıyla kolayca entegre edilebilir. Hata ayıklama, firmware güncelleme ve çeşitli haberleşme arayüzleri desteklenmektedir. Bu modül, gömülü sistemler için hızlı prototipleme ve geliştirme sürecini kolaylaştırmak amacıyla tasarlandı.",
         tech: ["STM32", "Modular design", "PCB", "Altium Designer"],
       },
     ],
@@ -131,7 +130,7 @@ export const tr = {
     preTitle: "Sırada Ne Var?",
     title: "İletişime Geç",
     description:
-      "İş birliğine ve yeni mühendislik projelerine açığım. Projelerinizi konuşmak için bana e-posta yoluyla ulaşabilirsiniz",
+      "İş birliğine ve yeni mühendislik projelerine açığım. Projelerinizi ve iş tekliflerinizi istişare etmek için bana e-posta yoluyla ulaşabilirsiniz",
     cta: "Merhaba de",
   },
   languages: {
